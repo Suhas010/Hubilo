@@ -6,7 +6,7 @@ import {createStore, applyMiddleware} from 'redux';
 import thunk from 'redux-thunk';
 import promise from 'redux-promise';
 import createLogger from 'redux-logger';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import allReducers from './reducers';
 import App from './components/App';
 
@@ -18,9 +18,9 @@ const store = createStore(
 
 ReactDOM.render(
     <MuiThemeProvider>
-    <Provider store={store}>
-        <App />
-    </Provider>
+        <Provider store={store}>
+            <App />
+        </Provider>
     </MuiThemeProvider>,
     document.getElementById('root')
 );

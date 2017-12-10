@@ -7,6 +7,8 @@ require('../../scss/style.scss');
 const App = () => (
     <div>    
         <Test />    
+        Please visit <a href="https://www.suhasmore.in">My personal website</a>
+        <br/> or my <a href="https://about.me/suhas-more">about.me</a> page for more details.
     </div>
 );
 
