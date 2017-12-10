@@ -9,3 +9,7 @@
 #### Navigate to the app root directory and run following commands in row
   * `npm install`
   * `npm start`
+
+## Tip
+
+* for convenience, I have pushed my working directory including node modules in zip Hubilo_Assignment
